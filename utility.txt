@@ -1,0 +1,6 @@
+<a href="index.php">Zaloguj się</a> |
+<a href="index.php">Zarejestruj się</a> |
+<a href="index.php">Mój FB</a> |
+<a href="img/zrzutekranu0.png">Mój Ln</a> |
+<a href="img/zrzutekranu1.png">Mój MOn</a> |
+<a href="img/zrzutekranu2.png">03</a> |

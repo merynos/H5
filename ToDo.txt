@@ -1,0 +1,6 @@
+Tu będą skategoryzowane kalkulatory do przeliczania liczb między systemami liczbowymi, a także matematyczny.
+1. W górnym pasku po lewej logo i tytuł, po prawej logowanie, rejestracja i ikonki mediów społecznościowych. 
+2. Poniżej menu z głównymi kategoriami. Po najechaniu rozwiną się poszczególne pozycje.
+3. niżej główne okno, w którym po kliknięciu w konkretną pozycję pojawi się kalkulator, a po kliknięci w kategorię pojawią się wszystkie kalkulatory z danej kategori, by wybrać konkretny.
+4. Poniżej menu po prawej od głównego okna będzie pasek z listą konkretnych kalkulatorów.
+5. Na dole standatdowo stopka strony.

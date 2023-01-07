@@ -1,0 +1,249 @@
+			/*	ELEMENTY BODY				***/
+body {
+	background-color: #1f1f1f;
+	color: #ffffcc;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11px;
+	line-height: 1.166;	
+	text-decoration: none;
+	text-align: center;
+	margin: 0% 3% 0% 3%;
+}
+a {
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:link {
+	color:#ffffcc;
+}
+a:visited {
+	color: #CCCCCC;
+}
+a:hover {
+	color: #ffcc99;
+}
+a:active {
+	color:#ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+
+}
+h1 {
+	font-size: 200%;
+}
+h2 {
+	font-size: 180%;
+}
+h3 {
+	font-size: 160%;
+}
+h4 {
+	font-size: 140%;
+}
+h5 {
+	font-size: 120%;
+}
+h6 {
+	font-size: 100%;
+}
+p.zw_text {
+	margin: 4px;
+	text-align: justify;
+}
+p.akapit {
+	margin: 4px;
+}
+a.akapit_l a:link {
+	color: #ffffcc;
+	font-family: Courier, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11px;
+	line-height: 1.166;	
+	text-decoration: inline;
+}
+a.akapit_l a:hover, a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffcc99;
+}
+a.akapit_l a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffcc;
+}
+ul{
+	list-style-type: square;
+	margin: 0px;
+	padding: 0px 4px 0px 15px
+}
+
+ul ul{
+	list-style-type: disc;
+	margin: 0px;
+	padding: 0px 4px 0px 20px
+}
+
+ul ul ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 4px 0px 25px
+}
+
+			/*	ID's I KLASY DIVOW LAYAUTU		***/
+
+			/*	LAYAUT CZESCI NAWIGACYJNEJ		***/
+
+div#mast_head {
+	position: absolute;
+	right: 1%;
+	/*left: 1%;*/
+	width: 98%;
+	height: 112px;
+	border: 0px solid #CC0000;
+}
+img#banner_1 {
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 0px;
+	width: 468px;
+	height: 60px;
+	border: 0px solid red;
+}
+div#utility {
+	position: absolute;
+	float: right;
+	width: auto;
+	text-align: right;
+	top: 4px;
+	right: 1%;
+}
+div#top_nav {	
+	position: relative;
+	float: left;
+	top: 2px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	min-width: 640px;
+	margin: 0px 4px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #CC0000;
+	background: #990000;
+	text-align: left;
+	vertical-align: middle;
+}
+			/*	LAYAUT CZESCI GLOWNEJ			***/
+			
+div#page_cel {
+	position: absolute;
+	top: 114px;
+	left: 1%;
+	width: 98%;
+	text-align: left;
+	border: 0px solid #CC0000;
+}
+div#right_nav {
+	float: right;
+	width: 16%;
+	margin: 0% 0% 0% 2%;
+	padding: 0px 4px 0px 4px;
+	border: 1px solid #CC0000;
+	background: #990000;
+}
+div#info_part {
+	float: left;
+	width: 14%;
+	border: 1px solid #CC0000;
+	margin: 0% 2% 0% 0%;
+}
+div#main_part {
+	float: left;
+	width: 63%;
+	border: 1px solid #CC0000;
+	margin: 0% 0% 0% 0%;
+}
+div#stopka {
+	position: relative;
+	clear: both;
+	width: 100%;
+	text-align: right;
+	border-top-color: #ff0000;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+div.art_1col {
+	clear: both;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 4px 0px 4px;
+	
+}
+	
+			/*	LINKI NAWIGACYJNE				***/
+
+#utility a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffcc99;
+	text-decoration:none;
+}
+#utility a:hover, a:active {
+	color: #ffffcc;
+	text-decoration: underline;
+	background: none;
+	border: none;
+}
+#top_nav a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #cc0000;
+	border: 2px solid #cc0000;
+	vertical-align: baseline;
+}
+#top_nav a:hover, a:active {
+	color: #ffffff;
+	background: #ff0000;
+	border: 2px solid #ff0000;
+}
+#right_nav a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffcc99;
+	text-decoration: none;
+	border: 1px solid #990000;
+	position: static;
+	width: 98%;
+	height: 18px;
+	display: block; /*vertical-align: bottom; */
+	margin: 0px 4px 0px 0px;
+	padding: 0px;
+	display: block;
+}
+#right_nav a:hover, a:active {
+	color: #ffffff;
+	background: #CC0000 fixed;
+	border: 1px solid #FF0000;
+}
+#stopka a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffcc99;
+}
+#stopka a:hover, a:active {
+	color:#FFFFCC;
+	border: none;
+	background: none;
+}
+#stopka {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFCC99;
+}
+/*695763458*/
